@@ -13,3 +13,13 @@
         * Float.
         * Double.
     - Boolean: condiciones true o false.
+
+- Las sentencias If sirven para ejecutar uno u otro bloque de codigo.
+
+- Los operadores condicionales son operadores que evaluan condiciones.
+    * <
+    * >
+    * <=
+    * >=
+    * ==
+    * !=

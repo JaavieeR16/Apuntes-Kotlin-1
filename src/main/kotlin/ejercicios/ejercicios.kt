@@ -97,3 +97,15 @@ fun tiposDeDatos(){
 
     println(myBool || myBool2)
 }
+
+fun sentenciaIf(){
+
+    val myNumber = 12
+
+    if (myNumber <= 10) {
+        println("$myNumber es menor o igual que 10")
+    }else{
+        println("$myNumber es mayor que 10")
+    }
+
+}
