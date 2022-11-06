@@ -23,3 +23,8 @@
     * >=
     * ==
     * !=
+
+- Operadores lógicos.
+    * && = y (todo verdadero)
+    * || = o (1 verdadero)
+    * ! = no (ninguno verdadero)
