@@ -1,3 +1,15 @@
 - Para las variables nomenglatura camelCase var primeraSegundaTercera.
 
--
+- Los tipos de datos son atributos que van a tener esas variables o constantes.
+
+- Tipos de datos:
+    - String: texto.
+    - Enteros: numeros enteros.
+        * Byte.
+        * Short.
+        * Int.
+        * Long.
+    - Decimales: numeros decimales.
+        * Float.
+        * Double.
+    - Boolean: condiciones true o false.

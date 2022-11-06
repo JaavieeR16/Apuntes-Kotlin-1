@@ -1,7 +1,7 @@
 package ejercicios
 
-//variables y constantes
-fun ejercicio1(){
+//variables y constantes.
+fun variablesYConstantes(){
 
     //Variables
 
@@ -38,4 +38,62 @@ fun ejercicio1(){
     val mySecondConstant = myFirstVariable
 
     println(mySecondConstant)
+}
+
+//Tipos de datos.
+fun tiposDeDatos(){
+
+    //String
+
+    val myString: String = "¡Primer String!"
+
+    val myString2 = "¡Segundo String!"
+
+    val myString3 = myString + " " + myString2
+
+    println(myString3)
+
+    //Enteros (Byte, Short, Int, Long)
+
+    val myInt: Int = 1
+
+    val myInt2 = 2
+
+    val myInt3 = myInt + myInt2
+
+    println(myInt3)
+
+    //Decimales (Float, Double)
+
+    val myDouble: Double = 1.5
+
+    val myDouble2 = 2.5
+
+    val myDouble3: Int = 1
+
+    val myDouble4 = myDouble + myDouble2 + myDouble3
+
+    println(myDouble4)
+
+    val myFloat: Float = 3.5f
+
+    val myFloat2 = 4.5f
+
+    val myFloat3 = myFloat + myFloat2
+
+    println(myFloat3)
+
+    //Boolean (Bool)
+
+    val myBool: Boolean = true
+
+    val myBool2 = false
+
+    println(myBool == myBool2)
+
+    println(myBool != myBool2)
+
+    println(myBool && myBool2)
+
+    println(myBool || myBool2)
 }
