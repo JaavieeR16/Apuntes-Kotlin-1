@@ -3,6 +3,6 @@ import ejercicios.*
 
 fun main(args: Array<String>) {
 
-
+    ejercicio1()
 
 }
