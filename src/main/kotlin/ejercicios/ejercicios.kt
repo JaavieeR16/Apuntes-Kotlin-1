@@ -98,6 +98,7 @@ fun tiposDeDatos(){
     println(myBool || myBool2)
 }
 
+//Sentencia If
 fun sentenciaIf() {
 
     val myNumber = 71
@@ -111,5 +112,162 @@ fun sentenciaIf() {
     }else{
         println("$myNumber es mayor que 10 o menor o igual que 5 y no es igual a 53")
     }
+}
+
+//Sentencia When
+fun sentenciaWhen(){
+
+    //When con String
+
+    val country = "Mexico"
+
+    when (country){
+        "España", "Mexico", "Argentina", "Perú" -> {
+            println("El idioma es español")
+        }
+        "EEUU" -> {
+            println("El idioma es inglés")
+        } else -> {
+            println("Error en la introducción de datos.")
+        }
+    }
+
+    //When con Int
+
+    val age = 10
+
+    when (age){
+        in 0..2 -> {
+            println("Eres un bebé")
+        }
+        in 3..10 -> {
+            println("Eres un niño.")
+        }
+        in 11..17 -> {
+            println("Eres un adolescente.")
+        }
+        in 18..69 -> {
+            println("Eres un adulto.")
+        }
+        in 70..99 -> {
+            println("Eres un anciano.")
+        }else -> {
+            println("Error en la introducción de datos.")
+        }
+    }
+
+}
+
+// Arrays
+fun arrays() {
+
+    val name = "Javier"
+
+    val surname = "Monroy"
+
+    val company = "Monroy S.L"
+
+    val age = "21"
+
+    //Crear el array
+
+    val myArray = arrayListOf<String>()
+
+    //Añadimos datos de uno en uno
+
+    myArray.add(name)
+    myArray.add(surname)
+    myArray.add(company)
+    myArray.add(age)
+
+    println(myArray)
+
+    //Añadir un conjunto de datos
+
+    myArray.addAll(listOf("Hola","¡Bienvenido al mundo!"))
+
+    println(myArray)
+
+    //Acceso a datos
+
+    val myCompany = myArray[2]
+
+    println(myCompany)
+
+    //Modificar datos
+
+    myArray[5] = "¡Bienvenidos otra vez al mundo!"
+
+    println(myArray)
+
+    //Borrar datos
+
+    myArray.removeAt(4)
+
+    println(myArray)
+
+    //Recorrer datos
+
+    myArray.forEach{
+        println(it)
+    }
+
+    //Otras operaciones
+
+    myArray.count() //Contar los datos
+
+    myArray.clear() //Limpiar todos los datos
+
+    println(myArray.count())
+
+    myArray.first() //Acceder al primer dato
+
+    myArray.last() //Acceder al ultimo dato
+
+}
+
+//Mapas o diccionarios
+fun maps(){
+
+    //Sintaxis
+
+    var myMap: Map<String, Int> = mapOf()
+
+    println(myMap)
+
+    //Añadir elementos
+
+    myMap = mutableMapOf("Javier" to 1, "Pedro" to 2, "Sara" to 3)
+
+    println(myMap)
+
+    //Añadir un valor a nuestro mapa sin eliminar lo de antes
+
+    myMap["Ana"] = 4
+
+    myMap.put("Maria", 5)
+
+    myMap.put("Marcos", 2)
+
+    println(myMap)
+
+    //Actualización de datos
+    myMap.put("Javier", 6)
+
+    println(myMap)
+
+    myMap["Marcos"] = 7
+
+    println(myMap)
+
+    //Acceder a los datos
+
+    println(myMap["Javier"])
+
+    //Eliminar datos
+
+    myMap.remove("Marcos")
+
+    println(myMap)
 
 }

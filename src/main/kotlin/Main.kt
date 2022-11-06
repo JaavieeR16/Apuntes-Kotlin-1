@@ -7,5 +7,11 @@ fun main(args: Array<String>) {
 
     //tiposDeDatos()
 
-    sentenciaIf()
+    //sentenciaIf()
+
+    //sentenciaWhen()
+
+    //arrays()
+
+    //maps()
 }

@@ -28,3 +28,10 @@
     * && = y (todo verdadero)
     * || = o (1 verdadero)
     * ! = no (ninguno verdadero)
+
+- La sentencia When = Switch
+
+- Arrays sirven para almacenar una colección de valores del mismo tipo y ordenados.
+
+- Los mapas o diccionarios son coleciones de valores que se agrupan de forma clave-valor y tienen que ser del mismo tipo de dato.
+    - No se pueden tener claves iguales cada clave debe tener su valor solo una vez, pero dos claves diferentes si pueden tener el mismo valor.
