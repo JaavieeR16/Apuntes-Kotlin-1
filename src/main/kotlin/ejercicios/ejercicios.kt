@@ -273,7 +273,6 @@ fun maps(){
 }
 
 //Bucles o Loops
-
 fun loops(){
 
     //Bucles
@@ -323,6 +322,41 @@ fun loops(){
     }
 
 }
+
+//Null Safety
+fun nullSafety(){
+
+    var myString = "Javier"
+
+    println(myString)
+
+    //Variable null safety
+
+    var mySafetyString:String? = "Javier nullSafety"
+
+    mySafetyString = null
+
+    println(mySafetyString)
+
+    mySafetyString = "Monroy"
+
+    /*if (mySafetyString != null){
+        println(mySafetyString!!)
+    }else{
+        println(mySafetyString)
+    }*/
+
+    //Safe call
+
+    println(mySafetyString?.length)
+
+    mySafetyString?.let {
+        println(it)
+    }
+
+}
+
+
 
 
 

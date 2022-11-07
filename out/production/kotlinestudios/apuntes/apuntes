@@ -39,3 +39,28 @@
 - Los bucles sirven para repetir una acción.
     - For -> recorrer el contenido de estructuras, como arrays o mapas.
     - While.
+
+- Null Safety es seguridad contra nulos. !! -> Obliga que no sea nulo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,4 +16,6 @@ fun main(args: Array<String>) {
     //maps()
 
     //loops()
+
+    nullSafety()
 }
