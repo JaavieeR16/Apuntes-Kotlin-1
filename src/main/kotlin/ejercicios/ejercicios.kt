@@ -356,8 +356,58 @@ fun nullSafety(){
 
 }
 
+//Funciones
+fun funciones(){
 
+    sayHello()
+    sayHello()
+    sayHello()
 
+    sayMyName("Alberto")
+    sayMyName("Pedro")
+    sayMyName("Sara")
+
+    sayMyNameAndAge("Alberto", 32)
+    sayMyNameAndAge("Pedro", 21)
+    sayMyNameAndAge("Sara", 17)
+
+    val sumResult = sumTwoNumbers(2, 5)
+    println(sumResult)
+
+    println(sumTwoNumbers(15, 9))
+
+    println(sumTwoNumbers(10, sumTwoNumbers(5, 5)))
+
+}
+
+//Función simple
+fun sayHello(){
+
+    println("Hola!")
+
+}
+
+//Funciones con parámetros de entrada
+fun sayMyName(name: String){
+
+    println("Hola mi nombre es $name")
+
+}
+
+fun sayMyNameAndAge(name: String, age:Int){
+
+    println("Hola mi nombre es $name y mi edad es $age")
+
+}
+
+//Funciones con valor de retorno
+fun sumTwoNumbers(firstNumber: Int, secondNumber: Int):Int{
+
+    val sum = firstNumber + secondNumber
+
+    return sum
+
+}
 
 
 

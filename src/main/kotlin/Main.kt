@@ -17,5 +17,8 @@ fun main(args: Array<String>) {
 
     //loops()
 
-    nullSafety()
+    //nullSafety()
+
+    //funciones()
+
 }

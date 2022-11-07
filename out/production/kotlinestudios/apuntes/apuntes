@@ -42,6 +42,8 @@
 
 - Null Safety es seguridad contra nulos. !! -> Obliga que no sea nulo.
 
+- Las funciones nos proporcionan un mecanismo para generar código independiente y reutilizable.
+
 
 
 
