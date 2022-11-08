@@ -1,6 +1,7 @@
 package ejercicios
 
 fun main(args: Array<String>) {
+    /* Principiante */
     //variablesYConstantes()
     //tiposDeDatos()
     //sentenciaIf()
@@ -11,7 +12,9 @@ fun main(args: Array<String>) {
     //nullSafety()
     //funciones()
     //clases()
+    /* Intermedio */
     //enumClasses()
+    nestedAndInnerClasses()
 }
 
 //variables y constantes.
@@ -492,7 +495,25 @@ fun enumClasses(){
 
 }
 
-//Clases
+//Nested and Inner classes
+fun nestedAndInnerClasses(){
+
+    //Clase anidada - Nested Class
+
+    val myNestedClass = myNestedAndInnerClass.myNestedClass()
+
+    val sum = myNestedClass.sum(10, 5)
+
+    println("El resultado de la suma es: $sum")
+
+    //Clase interna - Inner Class
+
+    val myInnerClass = myNestedAndInnerClass().myInnerClass()
+
+    val sumTwo = myInnerClass.sumTwo(10)
+
+    println("El resultado de sumar dos es: $sumTwo")
+}
 
 
 
