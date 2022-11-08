@@ -1,5 +1,19 @@
 package ejercicios
 
+fun main(args: Array<String>) {
+    //variablesYConstantes()
+    //tiposDeDatos()
+    //sentenciaIf()
+    //sentenciaWhen()
+    //arrays()
+    //maps()
+    //loops()
+    //nullSafety()
+    //funciones()
+    //clases()
+    //enumClasses()
+}
+
 //variables y constantes.
 fun variablesYConstantes(){
 
@@ -428,6 +442,57 @@ fun clases(){
 
 }
 
+//Enun class
+
+enum class Direction (val dir: Int){
+
+    NORTE(1), SUR(-1), ESTE(1), OESTE(-1);
+
+    fun description():String{
+
+        return when (this){
+            NORTE -> "La dirección es NORTE"
+            SUR -> "La dirección es SUR"
+            ESTE -> "La dirección es ESTE"
+            OESTE -> "La dirección es OESTE"
+        }
+
+    }
+
+}
+fun enumClasses(){
+
+    //Asignación de valores
+
+    var userDirection: Direction? = null
+
+    println("Dirección: $userDirection")
+
+    userDirection = Direction.NORTE
+
+    println("Dirección: $userDirection")
+
+    userDirection = Direction.ESTE
+
+    println("Dirección: $userDirection")
+
+    //Propiedades por defecto
+
+    println("Propiedad name: ${userDirection.name}")
+
+    println("Propiedad ordinal: ${userDirection.ordinal}")
+
+    //Funciones
+
+    println(userDirection.description())
+
+    //Inializacion
+
+    println(userDirection.dir)
+
+}
+
+//Clases
 
 
 

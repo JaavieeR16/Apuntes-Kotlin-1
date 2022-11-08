@@ -44,7 +44,10 @@
 
 - Las funciones nos proporcionan un mecanismo para generar código independiente y reutilizable.
 
+- Las clases tambien conocido como objeto, es una construcción flexible de uso general, para definir nuevos tipos. Pueden contener en su interior propiedades y métodos.
 
+- Enum class, clases de enumeracion, se utilizan para implementar clases de tipado seguro, es decir son clases que van a tomar valores que nosotros siempre vamos a conocer
+  con antelación y nunca van a poder tomar valores diferentes de los que nosotros vamos a definir desde un inicio.
 
 
 
