@@ -409,7 +409,24 @@ fun sumTwoNumbers(firstNumber: Int, secondNumber: Int):Int{
 
 }
 
+//Clases
+fun clases(){
 
+    val javier = Programer("Javier", 21, arrayOf(Programer.Language.KOTLIN, Programer.Language.JAVA))
+
+    println(javier.name)
+
+    javier.age = 22
+
+    javier.code()
+
+    val sara = Programer("Sara", 25, arrayOf(Programer.Language.HTML5), arrayOf(javier))
+
+    sara.code()
+
+    println("${sara.friends?.first()?.name} es amigo de ${sara.name}")
+
+}
 
 
 
