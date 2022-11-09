@@ -14,7 +14,10 @@ fun main(args: Array<String>) {
     //clases()
     /* Intermedio */
     //enumClasses()
-    nestedAndInnerClasses()
+    //nestedAndInnerClasses()
+    //classInheritance()
+    //interfaces()
+    dataClasses()
 }
 
 //variables y constantes.
@@ -515,7 +518,77 @@ fun nestedAndInnerClasses(){
     println("El resultado de sumar dos es: $sumTwo")
 }
 
+//Herencia
+fun classInheritance(){
 
+    val person = Person ("Sara", 40)
+
+    val programmer = Programmer ("Javier", 21, "Kotlin")
+
+    programmer.work()
+
+    programmer.sayLanguage()
+
+    programmer.goToWork()
+
+    programmer.drive()
+
+    val designer = Designer ("Juan", 33)
+
+    designer.work()
+
+    designer.goToWork()
+}
+
+//Interfaces
+fun interfaces(){
+
+    val gamer = Person("Javier", 21)
+
+    gamer.play()
+
+    gamer.stream()
+
+}
+
+//Data class
+fun dataClasses() {
+
+    val javier = Worker("Javier", 21, "Programador")
+
+    val javier2 = Worker ("Javier", 21, "Programador")
+
+    javier.lastWork = "Músico"
+
+    val sara = Worker ()
+
+    //Equals y HasCode
+
+    if (javier.equals (javier2)){
+        println("Son iguales")
+    }else{
+        println("No son iguales")
+    }
+
+    //toString
+
+    println(javier.toString())
+
+    //Copy
+
+    val javier3 = javier.copy(age = 22)
+
+    println(javier3.toString())
+
+    //Comnent N
+
+    val (name, age) = javier
+
+    println(name)
+
+    println(age)
+
+}
 
 
 

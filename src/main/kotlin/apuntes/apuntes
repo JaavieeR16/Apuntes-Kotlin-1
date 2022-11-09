@@ -55,7 +55,11 @@
 - Clases internas: código seguro y estructurado.
     * Inner classes.
 
+- Herencia es un mecanismos de las clases, heredando los comportamientos de esa clase que va a extenderse.
 
+- Interfaces sirven para definir funciones abstractas. Pueden tener propiedades pero deberan de ser abstractas.
+
+- Data class se utilizan para guardar datos.
 
 
 
